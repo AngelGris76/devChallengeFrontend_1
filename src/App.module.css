@@ -1,4 +1,5 @@
 .body {
+  padding: 0.5rem 1rem;
   font-family: 'Ubuntu Mono', sans-serif;
 }
 
@@ -7,14 +8,30 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  gap: 1.5rem;
+  gap: 2rem;
 }
 
 .buttonContainer {
   font-family: 'Noto sans', sans-serif;
 }
 
+.description {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.disabledButtons,
+.iconButtons,
+.sizeButtons,
+.colorButtons {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 2rem;
+}
+
 .footer {
+  margin-top: 2rem;
   display: flex;
   justify-content: center;
   align-items: center;
