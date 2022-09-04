@@ -5,8 +5,8 @@
   },
   "extends": [
     "plugin:react/recommended",
-    "plugin:react-hooks/recommended",
     "plugin:react/jsx-runtime",
+    "plugin:react-hooks/recommended",
     "standard",
     "prettier"
   ],
@@ -18,5 +18,5 @@
     "sourceType": "module"
   },
   "plugins": ["react"],
-  "rules": { "react/prop-types": "off" }
+  "rules": { "react/prop-types": "off", "react/no-unknown-property": "off" }
 }
