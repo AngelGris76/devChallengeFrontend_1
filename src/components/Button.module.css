@@ -1,0 +1,102 @@
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+
+  outline: none;
+  border: 1px solid transparent;
+  border-radius: 0.37rem;
+}
+
+.smallSize {
+  padding: 0.37rem 0.75rem;
+}
+
+.mediumSize {
+  padding: 0.5rem 1rem;
+}
+
+.largeSize {
+  padding: 0.75rem 1.37rem;
+}
+
+.default {
+  color: rgb(63, 63, 63);
+  background-color: rgb(224, 224, 224);
+  box-shadow: 0px 2px 3px rgba(51, 51, 51, 0.2);
+}
+
+.default:focus,
+.default:hover {
+  background-color: rgb(174, 174, 174);
+}
+
+.primary {
+  color: rgb(255, 255, 255);
+  background-color: rgb(41, 98, 255);
+  box-shadow: 0px 2px 3px rgba(41, 98, 255, 0.2);
+}
+
+.primary:focus,
+.primary:hover {
+  background-color: rgb(0, 57, 203);
+}
+
+.secondary {
+  color: rgb(255, 255, 255);
+  background: rgb(69, 90, 100);
+  box-shadow: 0px 2px 3px rgba(69, 90, 100, 0.2);
+}
+
+.secondary:focus,
+.secondary:hover {
+  background: rgb(28, 49, 58);
+}
+
+.danger {
+  color: rgb(255, 255, 255);
+  background: rgb(211, 47, 47);
+  box-shadow: 0px 2px 3px rgba(211, 47, 47, 0.2);
+}
+
+.danger:focus,
+.danger:hover {
+  background: rgb(154, 0, 7);
+}
+
+.textVariant,
+.outlineVariant {
+  color: rgb(61, 90, 254);
+  background-color: transparent;
+  box-shadow: none;
+}
+
+.outlineVariant {
+  border-color: rgb(61, 90, 254);
+}
+
+.textVariant:focus,
+.textVariant:hover {
+  background: rgba(41, 98, 255, 0.1);
+}
+
+.outlineVariant:focus,
+.outlineVariant:hover {
+  background: rgba(41, 98, 255, 0.1);
+  border-color: transparent;
+}
+
+.noShadow {
+  box-shadow: none;
+}
+
+.button:disabled {
+  color: rgb(158, 158, 158);
+  background-color: rgb(224, 224, 224);
+}
+
+.textVariant:disabled {
+  color: rgb(158, 158, 158);
+  background-color: inherit;
+}

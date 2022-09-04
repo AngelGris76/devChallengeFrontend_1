@@ -4,6 +4,7 @@ const EXTRA_CLASS = {
   sm: style.smallSize,
   md: style.mediumSize,
   lg: style.largeSize,
+  default: style.default,
   primary: style.primary,
   secondary: style.secondary,
   danger: style.danger,
@@ -17,7 +18,7 @@ const Button = ({
   startIcon: StartIcon,
   endIcon: EndIcon,
   size = 'md',
-  color,
+  color = 'default',
   variant,
   disableShadow,
   ...props
